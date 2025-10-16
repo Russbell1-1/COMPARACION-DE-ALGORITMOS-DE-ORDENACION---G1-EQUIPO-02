@@ -5,12 +5,13 @@
 using namespace std;
 
 void CountSort(int A[], int n);
-void InterDirectoBi(int A[], int n, int &comp, int &intr);
+void InterDirectoBi(int A[], int n, long long &comp, long long &intr);
 void tipoPrueba(string &patron);
 
 int main() 
 {
-	int mtd, prueba=1, n, intr=0, comp=0, ord=0;
+	int n,mtd,prueba=1;
+	long long intr=0, comp=0;
 	string patron;
 	
 	cout<<"--------- Menu ---------\n";
@@ -37,7 +38,7 @@ int main()
 				auto start=chrono::steady_clock::now();
 		    	InterDirectoBi(A, n, comp, intr);
 		        auto end=chrono::steady_clock::now();
-		        auto tiempo=chrono::duration_cast<chrono::nanoseconds>(end - start).count();
+		        auto tiempo=chrono::duration_cast<chrono::microseconds>(end - start).count();
 		        archv<<prueba<<",Intercambio Directo Bidireccional,"<<n<<","<<patron<<","<<tiempo<<","<<comp<<","<<intr<<","<<","<<"\n";
 		        prueba++;
 		}
@@ -46,7 +47,7 @@ int main()
 				auto start=chrono::steady_clock::now();
 		        CountSort(A, n);
 		        auto end=chrono::steady_clock::now();
-		        auto tiempo=chrono::duration_cast<chrono::nanoseconds>(end - start).count();
+		        auto tiempo=chrono::duration_cast<chrono::microseconds>(end - start).count();
 		        archv<<prueba<<",Counting Sort,"<<n<<","<<patron<<","<<tiempo<<","<<comp<<","<<intr<<","<<","<<"\n";
 		        prueba++;
 		}
@@ -85,7 +86,7 @@ void CountSort(int A[], int n)
 	}
 }
 
-void InterDirectoBi(int A[], int n, int &comp, int &intr) 
+void InterDirectoBi(int A[], int n, long long &comp, long long &intr) 
 {
     int izq=0, der=n-1, k=n-1;
     while (izq<der) 
