@@ -7,7 +7,7 @@
 
 ## Requisitos del sistema
 | Elemento | Especificación |
-|---------------------------|
+|--------------|-------------|
 | **Lenguaje** | C++ |
 | **Compilador** | Dev-C++ 6.3 |
 | **Sistema operativo** | Windows 10 Pro (64 bits) |
@@ -44,7 +44,7 @@
 
 ---
 
-## 🧮 Detalles del benchmark
+## Detalles del benchmark
 
 - Los **arreglos de prueba son predeterminados**, asegurando que ambos algoritmos trabajen con los **mismos datos** en cada ejecución.  
 - Cada método se ejecuta varias veces para obtener un promedio de tiempo más representativo.  
