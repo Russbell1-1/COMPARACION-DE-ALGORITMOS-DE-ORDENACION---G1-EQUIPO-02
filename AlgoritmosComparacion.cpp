@@ -20,9 +20,9 @@ int main()
     cout<<"Ingrese el metodo que desea usar: \n";
     cin>>mtd;
     system("cls");
-    cout<<"Ingrese cantidad de elementos del arreglo: \n";
+    cout<<"Ingrese cantidad de elementos del arreglo: ";
     cin>>n;
-	
+	system("cls");
     ofstream archv("resultados.csv");
     archv<<"Prueba,Algoritmo,n,Patron,Tiempo_microsegundos,Comparaciones,Intercambios\n";
 	
@@ -139,7 +139,6 @@ void InterDirectoBi(int A[], int n, int &comp, int &intr)
 void tipoPrueba(string &patron)
 {
 	int op;
-	system("cls");
 	cout<<"Tipos de datos de entrada\n";
     cout<<"1. Aleatorio uniforme\n";
     cout<<"2. Ordenado ascendente\n";
@@ -147,8 +146,9 @@ void tipoPrueba(string &patron)
     cout<<"4. Casi ordenado\n";
     cout<<"5. Con duplicado\n";
     cout<<"6. Salir\n";
-    cout<<"Seleccione el tipo de prueba: \n";
+    cout<<"Seleccione el tipo de prueba: ";
     cin>>op;
+    system("cls");
     switch (op)
 	{
             case 1:

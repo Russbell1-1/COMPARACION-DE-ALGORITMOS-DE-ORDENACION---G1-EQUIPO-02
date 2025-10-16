@@ -1,2 +1,2 @@
-prueba,CountSort,n,patron,repeticion,tiempo_microsegundos,comparaciones,intercambios
-,CountingSort,1000,Con duplicado,,998000,0,0,
+Prueba,Algoritmo,n,Patron,Tiempo_microsegundos,Comparaciones,Intercambios
+1,Counting Sort,1000,Aleatorio uniforme,0,0,0,,
