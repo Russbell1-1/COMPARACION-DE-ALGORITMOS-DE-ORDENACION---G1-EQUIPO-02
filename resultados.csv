@@ -1,0 +1,2 @@
+prueba,CountSort,n,patron,repeticion,tiempo_microsegundos,comparaciones,intercambios
+,CountingSort,1000,Con duplicado,,998000,0,0,
