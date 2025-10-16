@@ -29,18 +29,20 @@
 
 ## Ejecución del programa
 
-1. Ejecuta el archivo compilado (por ejemplo, `main.exe`).  
+1. Ejecuta el archivo compilado (por ejemplo, `AlgoritmosComparacion.exe`).  
 2. En el menú principal, selecciona el algoritmo que deseas ejecutar:  
    ```
    1. Counting Sort
    2. Shaker Sort
    3. Salir
    ```
+3. Luego indique la cantidad de elementos del arreglo
+4. Luego indique el tipo de arreglo que desea guardar en el .csv
 3. Al finalizar la ejecución, se generará automáticamente en la misma carpeta un archivo llamado:
    ```
    resultados.csv
    ```
-   Este archivo contiene los tiempos de ejecución y la cantidad de datos procesados.
+   Este archivo contiene el tiempo de ejecucion y el dato probado
 
 ---
 
@@ -77,7 +79,7 @@ Shaker Sort,10000,19.88
 Counting Sort,50000,1.05
 Shaker Sort,50000,510.73
 ```
-
+*En el caso de ShakerSort se mostrara tambien el numero de intercambios y comparaciones.
 ---
 
 ## Estructura del proyecto
@@ -91,14 +93,15 @@ Shaker Sort,50000,510.73
 │        -Manuscrito     # Articulo cientifico
 │        -Diapositiva    # Diapositiva para presentacion
 ├── include/ 
-│        -Archivo .cpp   # Programa principal
+│        -Librerias.txt  # Librerias usadas en el main
 ├── src/ 
 │        -Countingsort.cpp  # Codigos aislados de Countingsort 
 │        -Shakersort.cpp      y Shakersort
 ├── data/ 
 │        -Datos.exe         # Datos de entrada probados
 ├── results/
-         -resultados.csv    #Resultados enlistados
+         -Counting_benchmark.csv    #Resultados enlistados
+         -Shaker_benchmark.csv
 ---
 
 ## Resultados esperados

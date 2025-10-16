@@ -1,0 +1,151 @@
+Repeticion,Algoritmo,n,Patron,Tiempo_ms
+1,Counting Sort,1000,Aleatorio,0
+2,Counting Sort,1000,Aleatorio,0
+3,Counting Sort,1000,Aleatorio,0
+4,Counting Sort,1000,Aleatorio,0
+5,Counting Sort,1000,Aleatorio,0
+6,Counting Sort,1000,Aleatorio,0
+7,Counting Sort,1000,Aleatorio,0
+8,Counting Sort,1000,Aleatorio,0
+9,Counting Sort,1000,Aleatorio,0
+10,Counting Sort,1000,Aleatorio,0
+11,Counting Sort,1000,Ascendente,0
+12,Counting Sort,1000,Ascendente,0
+13,Counting Sort,1000,Ascendente,0
+14,Counting Sort,1000,Ascendente,0
+15,Counting Sort,1000,Ascendente,0
+16,Counting Sort,1000,Ascendente,0
+17,Counting Sort,1000,Ascendente,0
+18,Counting Sort,1000,Ascendente,0
+19,Counting Sort,1000,Ascendente,0
+20,Counting Sort,1000,Ascendente,0
+21,Counting Sort,1000,Descendente,0
+22,Counting Sort,1000,Descendente,0
+23,Counting Sort,1000,Descendente,0
+24,Counting Sort,1000,Descendente,0
+25,Counting Sort,1000,Descendente,0
+26,Counting Sort,1000,Descendente,0
+27,Counting Sort,1000,Descendente,0
+28,Counting Sort,1000,Descendente,0
+29,Counting Sort,1000,Descendente,0
+30,Counting Sort,1000,Descendente,0
+31,Counting Sort,1000,Casi ordenado,0
+32,Counting Sort,1000,Casi ordenado,0
+33,Counting Sort,1000,Casi ordenado,0
+34,Counting Sort,1000,Casi ordenado,0
+35,Counting Sort,1000,Casi ordenado,0
+36,Counting Sort,1000,Casi ordenado,0
+37,Counting Sort,1000,Casi ordenado,0
+38,Counting Sort,1000,Casi ordenado,0
+39,Counting Sort,1000,Casi ordenado,0
+40,Counting Sort,1000,Casi ordenado,0
+41,Counting Sort,1000,Con duplicados,0
+42,Counting Sort,1000,Con duplicados,0
+43,Counting Sort,1000,Con duplicados,0
+44,Counting Sort,1000,Con duplicados,0
+45,Counting Sort,1000,Con duplicados,0
+46,Counting Sort,1000,Con duplicados,0
+47,Counting Sort,1000,Con duplicados,0
+48,Counting Sort,1000,Con duplicados,0
+49,Counting Sort,1000,Con duplicados,0
+50,Counting Sort,1000,Con duplicados,0
+51,Counting Sort,10000,Aleatorio,0
+52,Counting Sort,10000,Aleatorio,0
+53,Counting Sort,10000,Aleatorio,0
+54,Counting Sort,10000,Aleatorio,0
+55,Counting Sort,10000,Aleatorio,0
+56,Counting Sort,10000,Aleatorio,0
+57,Counting Sort,10000,Aleatorio,0
+58,Counting Sort,10000,Aleatorio,0.996
+59,Counting Sort,10000,Aleatorio,0
+60,Counting Sort,10000,Aleatorio,0
+61,Counting Sort,10000,Ascendente,0
+62,Counting Sort,10000,Ascendente,0
+63,Counting Sort,10000,Ascendente,0
+64,Counting Sort,10000,Ascendente,0
+65,Counting Sort,10000,Ascendente,0
+66,Counting Sort,10000,Ascendente,0.997
+67,Counting Sort,10000,Ascendente,0
+68,Counting Sort,10000,Ascendente,0
+69,Counting Sort,10000,Ascendente,0
+70,Counting Sort,10000,Ascendente,0
+71,Counting Sort,10000,Descendente,0
+72,Counting Sort,10000,Descendente,0
+73,Counting Sort,10000,Descendente,0
+74,Counting Sort,10000,Descendente,0
+75,Counting Sort,10000,Descendente,0.997
+76,Counting Sort,10000,Descendente,0
+77,Counting Sort,10000,Descendente,0
+78,Counting Sort,10000,Descendente,0
+79,Counting Sort,10000,Descendente,0
+80,Counting Sort,10000,Descendente,0
+81,Counting Sort,10000,Casi ordenado,0
+82,Counting Sort,10000,Casi ordenado,0.996
+83,Counting Sort,10000,Casi ordenado,0
+84,Counting Sort,10000,Casi ordenado,0
+85,Counting Sort,10000,Casi ordenado,0
+86,Counting Sort,10000,Casi ordenado,0
+87,Counting Sort,10000,Casi ordenado,0
+88,Counting Sort,10000,Casi ordenado,0
+89,Counting Sort,10000,Casi ordenado,0
+90,Counting Sort,10000,Casi ordenado,0
+91,Counting Sort,10000,Con duplicados,0
+92,Counting Sort,10000,Con duplicados,0
+93,Counting Sort,10000,Con duplicados,0
+94,Counting Sort,10000,Con duplicados,0
+95,Counting Sort,10000,Con duplicados,0.996
+96,Counting Sort,10000,Con duplicados,0
+97,Counting Sort,10000,Con duplicados,0
+98,Counting Sort,10000,Con duplicados,0
+99,Counting Sort,10000,Con duplicados,0.996
+100,Counting Sort,10000,Con duplicados,0
+101,Counting Sort,100000,Aleatorio,0.998
+102,Counting Sort,100000,Aleatorio,0.998
+103,Counting Sort,100000,Aleatorio,0.997
+104,Counting Sort,100000,Aleatorio,0
+105,Counting Sort,100000,Aleatorio,0
+106,Counting Sort,100000,Aleatorio,0.996
+107,Counting Sort,100000,Aleatorio,0.998
+108,Counting Sort,100000,Aleatorio,0.997
+109,Counting Sort,100000,Aleatorio,0.997
+110,Counting Sort,100000,Aleatorio,0.998
+111,Counting Sort,100000,Ascendente,0.997
+112,Counting Sort,100000,Ascendente,0.997
+113,Counting Sort,100000,Ascendente,0.997
+114,Counting Sort,100000,Ascendente,0.997
+115,Counting Sort,100000,Ascendente,0.997
+116,Counting Sort,100000,Ascendente,0
+117,Counting Sort,100000,Ascendente,0.997
+118,Counting Sort,100000,Ascendente,0.997
+119,Counting Sort,100000,Ascendente,0.997
+120,Counting Sort,100000,Ascendente,0.997
+121,Counting Sort,100000,Descendente,0.997
+122,Counting Sort,100000,Descendente,0.996
+123,Counting Sort,100000,Descendente,0.996
+124,Counting Sort,100000,Descendente,0.997
+125,Counting Sort,100000,Descendente,0.998
+126,Counting Sort,100000,Descendente,0.996
+127,Counting Sort,100000,Descendente,0.998
+128,Counting Sort,100000,Descendente,0
+129,Counting Sort,100000,Descendente,0.997
+130,Counting Sort,100000,Descendente,0.997
+131,Counting Sort,100000,Casi ordenado,0
+132,Counting Sort,100000,Casi ordenado,0.997
+133,Counting Sort,100000,Casi ordenado,0.997
+134,Counting Sort,100000,Casi ordenado,0.996
+135,Counting Sort,100000,Casi ordenado,0
+136,Counting Sort,100000,Casi ordenado,0.997
+137,Counting Sort,100000,Casi ordenado,0
+138,Counting Sort,100000,Casi ordenado,0.997
+139,Counting Sort,100000,Casi ordenado,0.998
+140,Counting Sort,100000,Casi ordenado,0
+141,Counting Sort,100000,Con duplicados,0
+142,Counting Sort,100000,Con duplicados,0
+143,Counting Sort,100000,Con duplicados,0.997
+144,Counting Sort,100000,Con duplicados,0
+145,Counting Sort,100000,Con duplicados,0
+146,Counting Sort,100000,Con duplicados,0
+147,Counting Sort,100000,Con duplicados,0.996
+148,Counting Sort,100000,Con duplicados,0.998
+149,Counting Sort,100000,Con duplicados,0.996
+150,Counting Sort,100000,Con duplicados,0.996

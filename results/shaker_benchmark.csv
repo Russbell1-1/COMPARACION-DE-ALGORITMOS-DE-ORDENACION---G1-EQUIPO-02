@@ -1,0 +1,151 @@
+Repeticion,Algoritmo,n,Patron,Tiempo_ms,Comparaciones,Intercambios
+1,Intercambio Bidireccional,1000,Aleatorio,0.997,334237,248227
+2,Intercambio Bidireccional,1000,Aleatorio,1.995,333139,249526
+3,Intercambio Bidireccional,1000,Aleatorio,0.998,344761,257723
+4,Intercambio Bidireccional,1000,Aleatorio,0.997,336587,254145
+5,Intercambio Bidireccional,1000,Aleatorio,0.997,326490,245695
+6,Intercambio Bidireccional,1000,Aleatorio,0.996,338249,253613
+7,Intercambio Bidireccional,1000,Aleatorio,0.997,338183,250161
+8,Intercambio Bidireccional,1000,Aleatorio,0.997,333004,250598
+9,Intercambio Bidireccional,1000,Aleatorio,0.997,329866,249430
+10,Intercambio Bidireccional,1000,Aleatorio,0.998,336394,250270
+11,Intercambio Bidireccional,1000,Ascendente,0,999,0
+12,Intercambio Bidireccional,1000,Ascendente,0,999,0
+13,Intercambio Bidireccional,1000,Ascendente,0,999,0
+14,Intercambio Bidireccional,1000,Ascendente,0,999,0
+15,Intercambio Bidireccional,1000,Ascendente,0,999,0
+16,Intercambio Bidireccional,1000,Ascendente,0,999,0
+17,Intercambio Bidireccional,1000,Ascendente,0,999,0
+18,Intercambio Bidireccional,1000,Ascendente,0,999,0
+19,Intercambio Bidireccional,1000,Ascendente,0,999,0
+20,Intercambio Bidireccional,1000,Ascendente,0,999,0
+21,Intercambio Bidireccional,1000,Descendente,1.994,499500,499500
+22,Intercambio Bidireccional,1000,Descendente,1.995,499500,499500
+23,Intercambio Bidireccional,1000,Descendente,1.994,499500,499500
+24,Intercambio Bidireccional,1000,Descendente,1.995,499500,499500
+25,Intercambio Bidireccional,1000,Descendente,2.002,499500,499500
+26,Intercambio Bidireccional,1000,Descendente,1.994,499500,499500
+27,Intercambio Bidireccional,1000,Descendente,1.994,499500,499500
+28,Intercambio Bidireccional,1000,Descendente,1.994,499500,499500
+29,Intercambio Bidireccional,1000,Descendente,1.996,499500,499500
+30,Intercambio Bidireccional,1000,Descendente,1.996,499500,499500
+31,Intercambio Bidireccional,1000,Casi ordenado,0,32422,28894
+32,Intercambio Bidireccional,1000,Casi ordenado,0.998,32120,29258
+33,Intercambio Bidireccional,1000,Casi ordenado,0.998,39323,35984
+34,Intercambio Bidireccional,1000,Casi ordenado,0,33018,29894
+35,Intercambio Bidireccional,1000,Casi ordenado,0,35296,32524
+36,Intercambio Bidireccional,1000,Casi ordenado,0,33967,31248
+37,Intercambio Bidireccional,1000,Casi ordenado,0,32995,29716
+38,Intercambio Bidireccional,1000,Casi ordenado,0.997,31589,28865
+39,Intercambio Bidireccional,1000,Casi ordenado,0,33385,29540
+40,Intercambio Bidireccional,1000,Casi ordenado,0,35246,32316
+41,Intercambio Bidireccional,1000,Con duplicados,0.998,324961,240739
+42,Intercambio Bidireccional,1000,Con duplicados,0.998,329229,242823
+43,Intercambio Bidireccional,1000,Con duplicados,0.997,337692,250053
+44,Intercambio Bidireccional,1000,Con duplicados,0.998,335710,251216
+45,Intercambio Bidireccional,1000,Con duplicados,0.998,333954,244556
+46,Intercambio Bidireccional,1000,Con duplicados,0.997,335103,248399
+47,Intercambio Bidireccional,1000,Con duplicados,0.998,343241,256239
+48,Intercambio Bidireccional,1000,Con duplicados,0.997,329841,245466
+49,Intercambio Bidireccional,1000,Con duplicados,0.997,328885,240072
+50,Intercambio Bidireccional,1000,Con duplicados,0.997,329581,245488
+51,Intercambio Bidireccional,10000,Aleatorio,121.674,33227815,24955452
+52,Intercambio Bidireccional,10000,Aleatorio,125.501,33694740,25307285
+53,Intercambio Bidireccional,10000,Aleatorio,122.367,33481849,25139135
+54,Intercambio Bidireccional,10000,Aleatorio,124.26,33464246,25209058
+55,Intercambio Bidireccional,10000,Aleatorio,121.297,33131663,24876890
+56,Intercambio Bidireccional,10000,Aleatorio,122.211,33517185,25061789
+57,Intercambio Bidireccional,10000,Aleatorio,121.246,33368018,24937929
+58,Intercambio Bidireccional,10000,Aleatorio,120.711,33203978,24900256
+59,Intercambio Bidireccional,10000,Aleatorio,121.676,33215081,25004865
+60,Intercambio Bidireccional,10000,Aleatorio,121.674,33442025,25134996
+61,Intercambio Bidireccional,10000,Ascendente,0,9999,0
+62,Intercambio Bidireccional,10000,Ascendente,0,9999,0
+63,Intercambio Bidireccional,10000,Ascendente,0,9999,0
+64,Intercambio Bidireccional,10000,Ascendente,0,9999,0
+65,Intercambio Bidireccional,10000,Ascendente,0,9999,0
+66,Intercambio Bidireccional,10000,Ascendente,0,9999,0
+67,Intercambio Bidireccional,10000,Ascendente,0,9999,0
+68,Intercambio Bidireccional,10000,Ascendente,0,9999,0
+69,Intercambio Bidireccional,10000,Ascendente,0,9999,0
+70,Intercambio Bidireccional,10000,Ascendente,0,9999,0
+71,Intercambio Bidireccional,10000,Descendente,193.503,49995000,49995000
+72,Intercambio Bidireccional,10000,Descendente,194.485,49995000,49995000
+73,Intercambio Bidireccional,10000,Descendente,193.5,49995000,49995000
+74,Intercambio Bidireccional,10000,Descendente,193.178,49995000,49995000
+75,Intercambio Bidireccional,10000,Descendente,193.571,49995000,49995000
+76,Intercambio Bidireccional,10000,Descendente,192.37,49995000,49995000
+77,Intercambio Bidireccional,10000,Descendente,194.02,49995000,49995000
+78,Intercambio Bidireccional,10000,Descendente,193.537,49995000,49995000
+79,Intercambio Bidireccional,10000,Descendente,192.486,49995000,49995000
+80,Intercambio Bidireccional,10000,Descendente,192.6,49995000,49995000
+81,Intercambio Bidireccional,10000,Casi ordenado,12.964,3342184,3233710
+82,Intercambio Bidireccional,10000,Casi ordenado,12.965,3318759,3222192
+83,Intercambio Bidireccional,10000,Casi ordenado,13.478,3258181,3149330
+84,Intercambio Bidireccional,10000,Casi ordenado,12.967,3381437,3274086
+85,Intercambio Bidireccional,10000,Casi ordenado,12.966,3319524,3206564
+86,Intercambio Bidireccional,10000,Casi ordenado,12.965,3159917,3049070
+87,Intercambio Bidireccional,10000,Casi ordenado,12.967,3284382,3183320
+88,Intercambio Bidireccional,10000,Casi ordenado,13.966,3451226,3337764
+89,Intercambio Bidireccional,10000,Casi ordenado,11.967,3241770,3130450
+90,Intercambio Bidireccional,10000,Casi ordenado,12.966,3281998,3171128
+91,Intercambio Bidireccional,10000,Con duplicados,118.715,33008955,24370203
+92,Intercambio Bidireccional,10000,Con duplicados,119.705,33161397,24565471
+93,Intercambio Bidireccional,10000,Con duplicados,119.706,33447244,24768930
+94,Intercambio Bidireccional,10000,Con duplicados,118.273,32975720,24408090
+95,Intercambio Bidireccional,10000,Con duplicados,119.335,33006601,24406380
+96,Intercambio Bidireccional,10000,Con duplicados,118.666,33190891,24470061
+97,Intercambio Bidireccional,10000,Con duplicados,120.708,33464685,24730948
+98,Intercambio Bidireccional,10000,Con duplicados,116.706,32658756,24163023
+99,Intercambio Bidireccional,10000,Con duplicados,118.714,33365663,24720058
+100,Intercambio Bidireccional,10000,Con duplicados,117.689,33159491,24527590
+101,Intercambio Bidireccional,100000,Aleatorio,16134.9,3320392667,2490609760
+102,Intercambio Bidireccional,100000,Aleatorio,16289.2,3335684504,2497793616
+103,Intercambio Bidireccional,100000,Aleatorio,16179.8,3328923079,2496818361
+104,Intercambio Bidireccional,100000,Aleatorio,16217.3,3341477241,2505056319
+105,Intercambio Bidireccional,100000,Aleatorio,16100.6,3325298834,2490515827
+106,Intercambio Bidireccional,100000,Aleatorio,16092.5,3334259086,2498341152
+107,Intercambio Bidireccional,100000,Aleatorio,16272.3,3330218507,2496134292
+108,Intercambio Bidireccional,100000,Aleatorio,16379.9,3341652737,2506121431
+109,Intercambio Bidireccional,100000,Aleatorio,16325.3,3338510630,2504988956
+110,Intercambio Bidireccional,100000,Aleatorio,16365.4,3333964971,2496958038
+111,Intercambio Bidireccional,100000,Ascendente,0,99999,0
+112,Intercambio Bidireccional,100000,Ascendente,0,99999,0
+113,Intercambio Bidireccional,100000,Ascendente,0,99999,0
+114,Intercambio Bidireccional,100000,Ascendente,0,99999,0
+115,Intercambio Bidireccional,100000,Ascendente,0,99999,0
+116,Intercambio Bidireccional,100000,Ascendente,0,99999,0
+117,Intercambio Bidireccional,100000,Ascendente,0.997,99999,0
+118,Intercambio Bidireccional,100000,Ascendente,0,99999,0
+119,Intercambio Bidireccional,100000,Ascendente,0,99999,0
+120,Intercambio Bidireccional,100000,Ascendente,0,99999,0
+121,Intercambio Bidireccional,100000,Descendente,19457.4,4999950000,4999950000
+122,Intercambio Bidireccional,100000,Descendente,19767.3,4999950000,4999950000
+123,Intercambio Bidireccional,100000,Descendente,19849.7,4999950000,4999950000
+124,Intercambio Bidireccional,100000,Descendente,19889.3,4999950000,4999950000
+125,Intercambio Bidireccional,100000,Descendente,19805.4,4999950000,4999950000
+126,Intercambio Bidireccional,100000,Descendente,19761.2,4999950000,4999950000
+127,Intercambio Bidireccional,100000,Descendente,19665,4999950000,4999950000
+128,Intercambio Bidireccional,100000,Descendente,19693.1,4999950000,4999950000
+129,Intercambio Bidireccional,100000,Descendente,19630.2,4999950000,4999950000
+130,Intercambio Bidireccional,100000,Descendente,19799.7,4999950000,4999950000
+131,Intercambio Bidireccional,100000,Casi ordenado,403.386,94806409,88315567
+132,Intercambio Bidireccional,100000,Casi ordenado,410.171,94219496,87881261
+133,Intercambio Bidireccional,100000,Casi ordenado,381.516,93633657,87196260
+134,Intercambio Bidireccional,100000,Casi ordenado,381.859,93798885,87384084
+135,Intercambio Bidireccional,100000,Casi ordenado,399.585,95074710,88612166
+136,Intercambio Bidireccional,100000,Casi ordenado,386.045,93666773,87268520
+137,Intercambio Bidireccional,100000,Casi ordenado,376.038,92477740,86142056
+138,Intercambio Bidireccional,100000,Casi ordenado,384.639,94008696,87500946
+139,Intercambio Bidireccional,100000,Casi ordenado,388.91,93984769,87517226
+140,Intercambio Bidireccional,100000,Casi ordenado,392.779,95551727,89032390
+141,Intercambio Bidireccional,100000,Con duplicados,16403.5,3304293398,2448123970
+142,Intercambio Bidireccional,100000,Con duplicados,16563.6,3317815112,2455322650
+143,Intercambio Bidireccional,100000,Con duplicados,16476.9,3313140224,2451955697
+144,Intercambio Bidireccional,100000,Con duplicados,16365.8,3312355437,2451160399
+145,Intercambio Bidireccional,100000,Con duplicados,16572.8,3313922906,2452597105
+146,Intercambio Bidireccional,100000,Con duplicados,16377.2,3305946646,2447075137
+147,Intercambio Bidireccional,100000,Con duplicados,16288.2,3323178018,2459659610
+148,Intercambio Bidireccional,100000,Con duplicados,16278.7,3316792441,2453434377
+149,Intercambio Bidireccional,100000,Con duplicados,16449.7,3298001670,2439343581
+150,Intercambio Bidireccional,100000,Con duplicados,16193,3308946280,2448647325
