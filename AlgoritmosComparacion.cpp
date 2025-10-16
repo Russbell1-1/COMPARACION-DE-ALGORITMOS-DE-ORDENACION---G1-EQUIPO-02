@@ -73,7 +73,6 @@ int main()
     return 0;
 }
 
-//------------------ COUNTING SORT -----------------
 void CountSort(int A[], int n)
 {
     int max=A[0];
@@ -102,7 +101,6 @@ void CountSort(int A[], int n)
     for (int i=0; i<n; i++) A[i]=ord[i];
 }
 
-//------------------ SHAKER SORT -----------------
 void InterDirectoBi(int A[], int n, long long &comp, long long &intr) 
 {
     int izq=0, der=n-1, k=n-1;
@@ -133,7 +131,6 @@ void InterDirectoBi(int A[], int n, long long &comp, long long &intr)
     }
 }
 
-//------------------ PATRONES -----------------
 void tipoPrueba(string &patron)
 {
     int op;

@@ -1,2 +1,2 @@
 Prueba,Algoritmo,n,Patron,Tiempo_microsegundos,Comparaciones,Intercambios
-1,Counting Sort,1000,Aleatorio uniforme,0,0,0
+1,Counting Sort,10000,Aleatorio uniforme,0,0,0
