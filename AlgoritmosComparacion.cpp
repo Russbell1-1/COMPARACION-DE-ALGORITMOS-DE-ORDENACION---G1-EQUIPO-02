@@ -1,7 +1,6 @@
-#include <iostream>
+
 #include <chrono>
 #include <fstream>  
-#include <string>
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -29,15 +28,10 @@ int main()
 	tipoPrueba(patron);
 
 	int A[n];    
+    for (int k= 0; k<n; k++) 
+	cin>>A[k];
 		if (mtd==1)
 		{	
-			for (int i=0; i<30; i++)
-			{
-				A[n]={};
-				for (int k=0;k<n;k++) 
-				{
-					cin>>A[k];
-			    }
 				comp=0;
 				intr=0;
 				auto start=chrono::steady_clock::now();
@@ -46,25 +40,15 @@ int main()
 		        auto tiempo=chrono::duration_cast<chrono::nanoseconds>(end - start).count();
 		        archv<<prueba<<",Intercambio Directo Bidireccional,"<<n<<","<<patron<<","<<tiempo<<","<<comp<<","<<intr<<","<<","<<"\n";
 		        prueba++;
-			}
-			
 		}
 		else
 		{
-			for (int i=0; i<30; i=i+n)
-			{
-				A[n]={};
-				for (int k= 0; k<n; k++) 
-				{
-					cin>>A[k];
-			    }
 				auto start=chrono::steady_clock::now();
 		        CountSort(A, n);
 		        auto end=chrono::steady_clock::now();
 		        auto tiempo=chrono::duration_cast<chrono::nanoseconds>(end - start).count();
 		        archv<<prueba<<",Counting Sort,"<<n<<","<<patron<<","<<tiempo<<","<<comp<<","<<intr<<","<<","<<"\n";
 		        prueba++;
-			}
 		}
     
     archv.close();
