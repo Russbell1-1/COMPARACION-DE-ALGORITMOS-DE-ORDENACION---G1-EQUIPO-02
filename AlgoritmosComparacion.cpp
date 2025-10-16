@@ -28,62 +28,59 @@ int main()
 	
 	tipoPrueba(patron);
 
-	int A[n];    
-    for (int k= 0; k<n; k++) 
-	cin>>A[k];
-		if (mtd==1)
-		{	
-				comp=0;
-				intr=0;
-				auto start=chrono::steady_clock::now();
-		    	InterDirectoBi(A, n, comp, intr);
-		        auto end=chrono::steady_clock::now();
-		        auto tiempo=chrono::duration_cast<chrono::microseconds>(end - start).count();
-		        archv<<prueba<<",Intercambio Directo Bidireccional,"<<n<<","<<patron<<","<<tiempo<<","<<comp<<","<<intr<<","<<","<<"\n";
-		        prueba++;
-		}
-		else
-		{
-				auto start=chrono::steady_clock::now();
-		        CountSort(A, n);
-		        auto end=chrono::steady_clock::now();
-		        auto tiempo=chrono::duration_cast<chrono::microseconds>(end - start).count();
-		        archv<<prueba<<",Counting Sort,"<<n<<","<<patron<<","<<tiempo<<","<<comp<<","<<intr<<","<<","<<"\n";
-		        prueba++;
-		}
+	vector<int> A(n);    
+    for (int k=0; k<n; k++) 
+	    cin>>A[k];
+	    
+	if (mtd==1)
+	{	
+		comp=0;
+		intr=0;
+		auto start=chrono::steady_clock::now();
+    	InterDirectoBi(A.data(), n, comp, intr);
+        auto end=chrono::steady_clock::now();
+        auto tiempo=chrono::duration_cast<chrono::microseconds>(end - start).count();
+        archv<<prueba<<",Intercambio Directo Bidireccional,"<<n<<","<<patron<<","<<tiempo<<","<<comp<<","<<intr<<"\n";
+        prueba++;
+	}
+	else
+	{
+		auto start=chrono::steady_clock::now();
+        CountSort(A.data(), n);
+        auto end=chrono::steady_clock::now();
+        auto tiempo=chrono::duration_cast<chrono::microseconds>(end - start).count();
+        archv<<prueba<<",Counting Sort,"<<n<<","<<patron<<","<<tiempo<<","<<comp<<","<<intr<<"\n";
+        prueba++;
+	}
     
     archv.close();
-    cout<<"\nDatos guardados en resultados.csv\n";
+    cout<<"\n✅ Datos guardados en resultados.csv\n";
     return 0;
 }
 
 void CountSort(int A[], int n)
 {
     int max=A[0];
-    for (int i=1; i<n; i++) 
-	{
-        if (A[i]>max)
-            max=A[i];
-    }
-    int cont[max+1]={0};
-    int ord[n];
-    for (int i=0; i<n; i++)
+    for (int i=1;i<n;i++)
+        if (A[i]>max) max=A[i];
+    
+    vector<int> cont(max+1,0);
+    vector<int> ord(n);
+
+    for(int i=0;i<n;i++)
+        cont[A[i]]++;
+
+    for(int i=1;i<=max;i++)
+        cont[i]+=cont[i-1];
+
+    for(int i=n-1;i>=0;i--)
     {
-    	cont[A[i]]++;
-	}
-    for (int i=1; i<=max; i++)
-    {
-    	cont[i]=cont[i]+cont[i-1];
-	}
-    for (int i =n-1; i>=0; i--) 
-	{
         ord[cont[A[i]]-1]=A[i];
         cont[A[i]]--;
     }
-    for (int i=0; i<n; i++)
-    {
-    	A[i]=ord[i];
-	}
+
+    for(int i=0;i<n;i++)
+        A[i]=ord[i];
 }
 
 void InterDirectoBi(int A[], int n, long long &comp, long long &intr) 
@@ -100,7 +97,6 @@ void InterDirectoBi(int A[], int n, long long &comp, long long &intr)
                 A[i]=aux;
                 k=i;
                 intr++;
-                
             }
             comp++;
         }
@@ -136,26 +132,12 @@ void tipoPrueba(string &patron)
     system("cls");
     switch (op)
 	{
-            case 1:
-				patron="Aleatorio uniforme";
-				break;
-            case 2:
-            	patron="Ordenado ascendente";
-            	break;
-            case 3:
-                patron="Ordenado descendente";
-                break;
-            case 4:
-                patron="Casi ordenado";
-                break;
-            case 5:
-                patron="Con duplicado";
-                break;
-            case 6:
-                cout << "Saliendo del programa...\n";
-                exit(0);
-            default:
-                cout<<"Intente de nuevo.\n";
-                break;
+        case 1: patron="Aleatorio uniforme"; break;
+        case 2: patron="Ordenado ascendente"; break;
+        case 3: patron="Ordenado descendente"; break;
+        case 4: patron="Casi ordenado"; break;
+        case 5: patron="Con duplicado"; break;
+        case 6: cout<<"Saliendo del programa...\n"; exit(0);
+        default: cout<<"Intente de nuevo.\n"; break;
 	}
 }
