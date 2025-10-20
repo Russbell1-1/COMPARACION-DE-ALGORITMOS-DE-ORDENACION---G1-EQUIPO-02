@@ -64,7 +64,8 @@
 | Núcleos CPU usados | 1 |
 | Tiempo medido con | `std::chrono::high_resolution_clock` |
 | Semillas | No utilizadas (arreglos fijos) |
-| Commit hash final | *git commit -m "README TERMINADO"
+| Commit hash final | *git commit -m "Docs incluidos
+"
 * |
 
 ---
